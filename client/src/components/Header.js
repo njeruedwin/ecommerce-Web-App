@@ -61,11 +61,11 @@ const Header = ({ history }) => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/*<li className="nav-item">
                 <Link to="/signup" className="nav-link">
                   <i className="fas fa-edit"></i> Signup
                 </Link>
-              </li>
+                  </li> */}
               <li className="nav-item">
                 <Link to="/signin" className="nav-link">
                   <i className="fas fa-sign-in-alt"></i> Signin

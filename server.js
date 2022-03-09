@@ -21,13 +21,16 @@ app.use("/uploads", express.static("uploads"));
 app.use("/api/filter", filterRoutes);
 
 mongoose.connect(
-  "mongodb://localhost/ecommerce",
+  process.env.MONGODB_URI || "mongodb://localhost/ecommerce",
   { useUnifiedTopology: true, useNewUrlParser: true },
   () => {
     console.log("Successfuly conneted to mongoDB");
   }
 );
 
-const port = 5000;
+const port = process.env.port || 5000;
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 app.listen(port, () => console.log(`Listening on port ${port}`));

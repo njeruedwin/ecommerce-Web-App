@@ -1,5 +1,5 @@
 .signup-container {
-  background-image: url("/images/img-signup-bkg.jpg");
+  background-image: url("../images/electronicshop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7,7 +7,7 @@
 }
 
 .signin-container {
-  background-image: url("/images/img-signin-bkg.jpg");
+  background-image: url("../images/electronicshop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
