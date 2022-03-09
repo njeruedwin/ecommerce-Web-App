@@ -1,0 +1,76 @@
+.card-container {
+  margin: 3px;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  background: #f5f5f5;
+  box-shadow: 5px 5px 5px rgb(166, 201, 201);
+  border-radius: 10px;
+  width: 262px;
+  height: 500px;
+}
+
+p {
+  font-size: 0.6em;
+  color: rgb(166, 201, 201);
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: teal;
+  margin-top: -5px;
+}
+
+h2 {
+  color: teal;
+  margin-top: -5px;
+}
+
+.card-image {
+  width: 290px;
+
+  align-items: center;
+}
+
+.product {
+  top: 50%;
+  position: absolute;
+  height: 10px;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: #0e0d0d;
+  font-size: 0.7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+button {
+  background: teal;
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: rgb(29, 29, 29);
+  transition: all 0.4s ease-in-out;
+}
+
+.focus {
+  background: #ba7e7e;
+  color: #f5f5f5;
+}
